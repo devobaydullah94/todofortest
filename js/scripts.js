@@ -36,7 +36,7 @@ const app = Vue.createApp({
                 this.saveTasksToCookies();
             }
         },
-        
+    
         toggleEdit(task) {
             task.editing = !task.editing;
         },
